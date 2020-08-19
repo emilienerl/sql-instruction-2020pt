@@ -18,7 +18,7 @@ Director 	varchar(255) 	not null
  insert into Movie VALUES
  	(1, 'Star Wars', 1977, 'PG', 'George Lucas'),
  	(2, 'Sixteen Candles', 1984, 'PG', 'John Hughes'),
-  	(3, 'Fifth Element', 1997, 'PG-13', 'John Hughes'),
+  	(3, 'Fifth Element', 1997, 'PG-13', 'Luc Besson'),
  	(4, 'Better Off Dead', 1985, 'PG', 'Savage Steve Holland'),
 	(5, 'Blazing Saddles', 1974, 'R', 'Mel Brooks'),
     (6, 'Clueless', 1995, 'PG-13', 'Amy Heckerling'),
