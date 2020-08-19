@@ -23,5 +23,6 @@ Director 	varchar(255) 	not null
 	(5, 'Blazing Saddles', 1974, 'R', 'Mel Brooks'),
     (6, 'Clueless', 1995, 'PG-13', 'Amy Heckerling'),
     (7, 'Role Models', 2008, 'R', 'David Wain'),
-    (8, 'Weekend at Bernie''s', 1989, 'PG-13', 'Ted Kotcheff')
+    (8, 'Weekend at Bernie''s', 1989, 'PG-13', 'Ted Kotcheff'),
+    (9, 'The Shawshank Redemption', 1994, 'R', 'Frank Darabont')
     ;
