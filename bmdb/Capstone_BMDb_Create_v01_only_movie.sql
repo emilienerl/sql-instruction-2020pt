@@ -24,5 +24,11 @@ Director 	varchar(255) 	not null
     (6, 'Clueless', 1995, 'PG-13', 'Amy Heckerling'),
     (7, 'Role Models', 2008, 'R', 'David Wain'),
     (8, 'Weekend at Bernie''s', 1989, 'PG-13', 'Ted Kotcheff'),
-    (9, 'The Shawshank Redemption', 1994, 'R', 'Frank Darabont')
+    (9, 'The Shawshank Redemption', 1994, 'R', 'Frank Darabont'),
+    (10, 'Brittany Runs a Marathon', 2019, 'R', 'Paul Downs Colaizzo'),
+    (11, 'Bridesmaids', 2011, 'R', 'Paul Feig'),
+    (12, 'This Is 40', 2012, 'R', 'Judd Apatow'),
+    (13, 'Good Boys', 2019, 'R', 'Gene Stupnitsky'),
+    (14, 'The Breakfast Club', 1985, 'R', 'John Hughes'),
+    (15, 'The Sandlot', 1993, 'PG', 'David Mickey Evans')
     ;
