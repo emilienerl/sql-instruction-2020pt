@@ -54,7 +54,7 @@ CONSTRAINT act_mov unique (ActorID, MovieID)
     (8, 'Weekend at Bernie''s', 1989, 'PG-13', 'Ted Kotcheff'),
     (9, 'The Shawshank Redemption', 1994, 'R', 'Frank Darabont'),
     (10, 'Brittany Runs a Marathon', 2019, 'R', 'Paul Downs Colaizzo'),
-    (11, 'Bridesmaids', 2011, 'R', 'Paul Feig'),
+	(11, 'Bridesmaids', 2011, 'R', 'Paul Feig'),
     (12, 'This Is 40', 2012, 'R', 'Judd Apatow'),
     (13, 'Good Boys', 2019, 'R', 'Gene Stupnitsky'),
     (14, 'The Breakfast Club', 1985, 'R', 'John Hughes'),
@@ -67,11 +67,20 @@ CONSTRAINT act_mov unique (ActorID, MovieID)
  	(1, 'Mark', 'Hamill', 'M', '1951-09-25'),
     (2, 'Harrison', 'Ford', 'M', '1942-07-13'),
     (3, 'Molly', 'Ringwald', 'F', '1968-02-18'),
-    (4, 'Anthony Michael', 'Hall', 'M', '1968-04-14')
+    (4, 'Anthony Michael', 'Hall', 'M', '1968-04-14'),
+	(5, 'Bruce', 'Willis', 'M', '1955-03-19'),
+    (6, 'John', 'Cusack', 'M', '1966-06-28'),
+    (7, 'Gene', 'Wilder', 'M', '1933-06-11'),
+	(8, 'Alicia', 'Silverstone', 'F', '1976-10-04')
     ;
     
      insert into Credit VALUES
  	(1, 1, 1, 'Luke Skywalker'),
     (2, 2, 1, 'Han Solo'),
     (3, 3, 2, 'Samantha'),
-    (4, 4, 2, 'Farmer Ted')
+    (4, 4, 2, 'Farmer Ted'),
+    (5, 5, 3, 'Korben Dallas'),
+    (6, 6, 4, 'Lane Meyer'),
+    (7, 7, 5, 'Jim'),
+	(8, 8, 6, 'Cher Horowitz')
+    ;
