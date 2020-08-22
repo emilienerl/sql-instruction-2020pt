@@ -3,6 +3,8 @@ DROP DATABASE IF EXISTS bmdb;
 CREATE DATABASE bmdb;
 USE bmdb;
 
+-- table names should be singular for relating back to any other programs
+
 -- create Movie table
 -- DROP TABLE IF EXISTS Movie;
 Create table Movie (
