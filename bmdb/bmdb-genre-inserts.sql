@@ -1,0 +1,27 @@
+SELECT * FROM bmdb.genre;
+insert genre values (1, 'Action');
+insert genre values (2, 'Comedy');
+insert genre values (3, 'Romance');
+insert genre values (4, 'Crime');
+insert genre values (5, 'Thriller');
+insert genre values (6, 'Sci-Fi');
+insert genre values (7, 'Historical fiction');
+insert genre values (8, 'Fantasy');
+insert genre values (9, 'Adventure');
+insert genre values (10, 'Drama');
+insert genre values (11, 'Historical');
+insert genre values (12, 'Horror');
+insert genre values (13, 'Mystery');
+insert genre values (14, 'Animation');
+insert genre values (15, 'Film Noir');
+insert genre values (16, 'Documentary');
+insert genre values (17, 'Biography');
+insert genre values (18, 'Family');
+insert genre values (19, 'War');
+insert genre values (20, 'Western');
+insert genre values (21, 'Superhero');
+insert genre values (22, 'Sport');
+insert genre values (23, 'Musical');
+insert genre values (24, 'Short Film');
+
+select * from genre;
