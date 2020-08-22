@@ -22,3 +22,15 @@ insert into movie
             
 select * from actor
 where firstname = 'molly';
+
+-- insert values without id
+insert into actor (FirstName, LastName, Gender, Birthdate) 
+values
+('Test1', 'Actor', 'M', '1980-05-05'),
+('Test2', 'Actor', 'M', '1980-05-05'),
+('Test3', 'Actor', 'M', '1980-05-05');
+
+select * from actor;
+
+delete from actor
+	where id > 8;
