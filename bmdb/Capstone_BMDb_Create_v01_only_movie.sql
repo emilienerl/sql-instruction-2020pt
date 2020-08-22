@@ -74,6 +74,7 @@ CONSTRAINT act_mov unique (ActorID, MovieID)
 	(8, 'Alicia', 'Silverstone', 'F', '1976-10-04')
     ;
     
+    -- (ID, actorID, movieID, role)
      insert into Credit VALUES
  	(1, 1, 1, 'Luke Skywalker'),
     (2, 2, 1, 'Han Solo'),
