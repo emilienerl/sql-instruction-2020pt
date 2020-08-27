@@ -28,4 +28,6 @@ INSERT INTO product (ID, VendorID, PartNumber, Name, Price, Unit, PhotoPath) VAL
 INSERT INTO product (ID, VendorID, PartNumber, Name, Price, Unit, PhotoPath) VALUES (11,4,'940600','Canon imageCLASS Copier (D530)',99.99,NULL,NULL);
 INSERT INTO product (ID, VendorID, PartNumber, Name, Price, Unit, PhotoPath) VALUES (12,5,'228148','Acer Aspire ATC-780A-UR12 Desktop Computer',399.99,'','/images/AcerAspireDesktop.jpg');
 INSERT INTO product (ID, VendorID, PartNumber, Name, Price, Unit, PhotoPath) VALUES (13,5,'279364','Lenovo IdeaCentre All-In-One Desktop',349.99,'','/images/LenovoIdeaCenter.jpg');
+INSERT INTO product (ID, VendorID, PartNumber, Name, Price, Unit, PhotoPath) VALUES (1,1,'ME280LL','iPad Mini 2',296.99,NULL,NULL);
+INSERT INTO product (ID, VendorID, PartNumber, Name, Price, Unit, PhotoPath) VALUES (2,2,'ME280LL','iPad Mini 2',299.99,NULL,NULL);
 
