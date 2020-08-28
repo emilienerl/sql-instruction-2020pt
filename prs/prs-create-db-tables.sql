@@ -4,6 +4,7 @@ create database prs;
 use prs;
 
 -- create the user table
+-- DROP TABLE IF EXISTS User;
 CREATE TABLE user (
   ID			INT            			PRIMARY KEY  AUTO_INCREMENT,
   UserName      VARCHAR(20)    			 NOT NULL     UNIQUE,
