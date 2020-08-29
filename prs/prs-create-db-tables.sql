@@ -101,3 +101,8 @@ INSERT INTO product (ID, VendorID, PartNumber, Name, Price, Unit, PhotoPath) VAL
 INSERT INTO product (ID, VendorID, PartNumber, Name, Price, Unit, PhotoPath) VALUES (13,5,'279364','Lenovo IdeaCentre All-In-One Desktop',349.99,'','/images/LenovoIdeaCenter.jpg');
 INSERT INTO product (ID, VendorID, PartNumber, Name, Price, Unit, PhotoPath) VALUES (1,1,'ME280LL','iPad Mini 2',296.99,NULL,NULL);
 INSERT INTO product (ID, VendorID, PartNumber, Name, Price, Unit, PhotoPath) VALUES (2,2,'ME280LL','iPad Mini 2',299.99,NULL,NULL);
+
+-- create a user and grant privileges to that user
+DROP USER IF EXISTS prs_user@localhost;
+CREATE USER prs_user@localhost IDENTIFIED BY 'sesame';
+GRANT SELECT, INSERT, DELETE, UPDATE ON prs.* TO prs_user@localhost;
